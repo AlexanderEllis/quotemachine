@@ -49,10 +49,10 @@ $(document).ready(function(){
       var d = "rgb(" + (a + 100) + "," + (b + 100) + "," + (c + 100) + ")"
       $("#quoteSpace").css("color", d);
     });
-
-      $("#share").on("click", function() {
-        window.open("http://twitter.com/home?status=" + quotelist[num][0] + " - " + quotelist[num][1]);
   });
+    
+    $("#share").on("click", function() {
+       window.open("http://twitter.com/home?status=" + quotelist[num][0] + " - " + quotelist[num][1]);
 
   });
   
